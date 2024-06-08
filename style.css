@@ -1,0 +1,85 @@
+/* header */
+.backgroundimg{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8a_wd4e6W1m2-4MtQ_jjGcnfiEsWkx-22Eo8GnP_jw&s") ;
+   height: 350px;
+   width: 100%;
+}
+header h1{
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    color: #331100;
+     background-color: aliceblue;
+    width: 150px;
+    display: inline;
+}
+.place{
+float: right;
+}
+header h2{
+    font-size: 45px;
+   background-color: aliceblue;
+   width: 590px;
+    text-align: center;
+    margin-left: 25%;
+    font-family: FreeMono, monospace;
+    color: #331100;
+}
+/* main */
+ main h1{
+   font-size: 35px;
+     font-family: Arial, sans-serif;
+     text-align: center;
+ }    
+ .contener{
+    display: block;
+ }
+ .photo{
+    display: flex;
+ }  
+ main img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border:5px solid #ffaa00 ;
+ position: relative;
+ }
+main img:hover{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    transition: 3s linear;
+ }
+ /*footer*/
+footer{
+    color: white;
+background-color: #0b0b0c;
+}
+footer h1{
+    font-size: 24px;
+    color: #0b0b0c;
+    background-color: white;
+    height: 25px;
+}
+footer p{
+    margin-left: 25%;
+    font-size: 25px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
+.icons{
+height: 15px;
+width: 15px;
+}
+table{
+    text-align: center;
+    font-size: 29px;
+    color: white;
+}
+.contacts{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
